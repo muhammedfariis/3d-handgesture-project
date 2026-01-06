@@ -2,7 +2,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: './', // Crucial for GitHub Pages
+  base: './index.html', // Crucial for GitHub Pages
   build: {
     outDir: 'dist',
   }
