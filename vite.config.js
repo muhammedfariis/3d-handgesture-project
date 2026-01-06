@@ -1,8 +1,7 @@
-// vite.config.js
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: './index.html', // Crucial for GitHub Pages
+  base: '/3d-handgesture-project/', 
   build: {
     outDir: 'dist',
   }
